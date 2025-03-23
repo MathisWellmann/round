@@ -5,6 +5,7 @@ authors = [
     "Mohamed Hayibor <mohamedhayibor@gmail.com>",
     "Mathis Wellmann <wellmannmathis@gmail.com",
 ]
+edition = "2024"
 
 publish = true
 description = "This crate provides utilities to round your floats with precision from 1 to 10."
@@ -15,3 +16,5 @@ repository = "https://github.com/mohamedhayibor/round"
 license = "GPL-2.0"
 keywords = ["round", "rounding", "precision", "decimals", "floats"]
 
+[dependencies]
+num-traits = "0.2.19"
